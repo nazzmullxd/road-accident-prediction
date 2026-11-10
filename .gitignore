@@ -1,0 +1,49 @@
+# Python and notebook tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+credentials*.json
+kaggle.json
+
+# Datasets, generated artifacts, and weights
+data/
+datasets/
+outputs/
+results/
+nexar_multiseed/
+manifests/
+uint8_cache/
+runs/
+checkpoints/
+predictions/
+selection/
+tables/
+figures/
+stats/
+logs/
+one_click_progress.json
+*.mp4
+*.avi
+*.mov
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.log

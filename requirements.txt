@@ -1,0 +1,15 @@
+# Compatible PyTorch and Torchvision wheels must match your CPU/CUDA environment.
+# These ranges describe dependencies, not an exact reproduction lockfile.
+torch>=2.5,<3
+torchvision>=0.20,<1
+numpy>=1.26,<3
+pandas>=2.2,<3
+opencv-python-headless>=4.10,<5
+matplotlib>=3.9,<4
+tqdm>=4.66,<5
+scipy>=1.13,<2
+scikit-learn>=1.5,<2
+statsmodels>=0.14,<1
+ipython>=8.27,<10
+ipykernel>=6.29,<8
+jupyterlab>=4.2,<5
